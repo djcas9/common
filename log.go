@@ -61,7 +61,7 @@ type Logger struct {
 }
 
 // New will initialize a new Logger struct
-func New() *Logger {
+func NewLogger() *Logger {
 	return &Logger{
 		Out:        os.Stdout,
 		Level:      InfoLevel,
